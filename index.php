@@ -60,6 +60,9 @@
 								<ul class="fh5co-social-icons">
 									<li><a href="https://linkedin.com/in/arielcberdah"><i class="icon-linkedin2"></i></a></li>
 								</ul>
+
+								<p><a href="/resume/2024.docx" class="btn btn-default btn-lg">Get Resume</a></p>
+								
 							</p>
 						</div>
 					</div>
