@@ -55,13 +55,13 @@
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
 							<div class="profile-thumb" style="background: url(images/ariel.jpeg);"></div>
 							<h1><span>Ariel Berdah</span></h1>
+							<p><a href="/resume/2024.docx" class="btn btn-default btn-lg">Get Resume</a></p>
 							<h3><span>Web Developer / Full Stack</span></h3>
 							<p>
 								<ul class="fh5co-social-icons">
 									<li><a href="https://linkedin.com/in/arielcberdah"><i class="icon-linkedin2"></i></a></li>
 								</ul>
 
-								<p><a href="/resume/2024.docx" class="btn btn-default btn-lg">Get Resume</a></p>
 								
 							</p>
 						</div>
