@@ -12,21 +12,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Valider et nettoyer les données (optionnel)
 
     // Envoi par email
-    $to = "acberdah@gmail.com";
-    $subject_email = "New Inquiry: $subject";
-    $message_email = "You have received a new inquiry from $fname $lname.\n\n";
-    $message_email .= "Email: $email\n";
-    $message_email .= "Message:\n$message";
+    // $to = "acberdah@gmail.com";
+    // $subject_email = "New Inquiry: $subject";
+    // $message_email = "You have received a new inquiry from $fname $lname.\n\n";
+    // $message_email .= "Email: $email\n";
+    // $message_email .= "Message:\n$message";
 
-    $headers = "From: $email\r\n";
-    $headers .= "Reply-To: $email\r\n";
+    // $headers = "From: $email\r\n";
+    // $headers .= "Reply-To: $email\r\n";
 
     // Envoyer l'email
-    if (mail($to, $subject_email, $message_email, $headers)) {
-        echo "Thank you for your message. We will contact you shortly.";
-    } else {
-        echo "Oops! Something went wrong. Please try again later.";
-    }
+    // if (mail($to, $subject_email, $message_email, $headers)) {
+    //     echo "Thank you for your message. We will contact you shortly.";
+    // } else {
+    //     echo "Oops! Something went wrong. Please try again later.";
+    // }
 
     // Enregistrement dans un fichier CSV
     $data = array($fname, $lname, $email, $subject, $message);
@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Fermer le fichier CSV
     fclose($fp);
 }
-
+$msg = 'Message submitted successfully!';
 if( $posted ) require(__DIR__.'/index.php');
 else  {
 	http_response_code(403);

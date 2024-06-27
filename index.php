@@ -518,6 +518,11 @@
 					<input type="submit" value="Send Message" class="btn btn-primary">
 				</div>
 
+				<? if($posted) : ?>
+				<div class='alert alert-success'>
+					<?= $msg; ?>
+				</div>
+				<? endif; ?>
 			</form>	
 		</div>
 	</div>
