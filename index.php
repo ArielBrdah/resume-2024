@@ -488,24 +488,24 @@
 			<form action="/interested.php" method='POST'>
 				<div class="row form-group">
 					<div class="col-md-6">
-						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+						<input type="text" name="fname" id="fname" class="form-control" placeholder="Your firstname">
 					</div>
 				</div>
 				<div class="row form-group">
 					<div class="col-md-6">
-						<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+						<input type="text" name="lname" id="lname" class="form-control" placeholder="Your lastname">
 					</div>
 				</div>
 
 				<div class="row form-group">
 					<div class="col-md-12">
-						<input type="text" id="email" class="form-control" placeholder="Your email address">
+						<input type="text" name="email" id="email" class="form-control" placeholder="Your email address">
 					</div>
 				</div>
 
 				<div class="row form-group">
 					<div class="col-md-12">
-						<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+						<input type="text" name="subject" id="subject" class="form-control" placeholder="Your subject of this message">
 					</div>
 				</div>
 
