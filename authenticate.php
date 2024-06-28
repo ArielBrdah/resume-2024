@@ -1,7 +1,7 @@
 <?php
 // Nom d'utilisateur et mot de passe autorisés
-$USERNAME = 'ariel020390';
-$PASSWORD = '020390ariel';
+$USERNAME = 'ab020390';
+$PASSWORD = '020390ab';
 
 // Fonction d'authentification
 function authenticate() {

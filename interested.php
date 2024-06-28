@@ -29,13 +29,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // }
 
     // Enregistrement dans un fichier CSV
-    $data = array($fname, $lname, $email, $subject, $message);
+    $data = array($fname, $lname, $email, $subject, $message, date("Y-m-d H:i:s"));
     $file = 'csv/interested.csv';
 
     // Vérifier si le fichier existe, sinon créer le fichier avec les en-têtes
     if (!file_exists($file)) {
         $fp = fopen($file, 'w');
-        fputcsv($fp, array('First Name', 'Last Name', 'Email', 'Subject', 'Message'));
+        fputcsv($fp, array('fname', 'lname', 'email', 'subject', 'message', 'posted_at'));
     } else {
         $fp = fopen($file, 'a');
     }
