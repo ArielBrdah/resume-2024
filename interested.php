@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     fclose($fp);
 }
 $msg = 'Message submitted successfully!';
-if( $posted ) require(__DIR__.'/index.php');
+if( $posted ) require(__DIR__.'/contact.view.php');
 else  {
 	http_response_code(403);
 	exit();
