@@ -57,7 +57,7 @@
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
 							<div class="profile-thumb" style="background: url(images/ariel.jpeg);"></div>
 							<h1><span>Ariel Berdah</span></h1>
-							<p><a href="/resume/2024.docx" class="btn btn-default btn-lg">Get Resume</a></p>
+							<p><a href="/resume/ariel_berdah_resume.docx" class="btn btn-default btn-lg">Get Resume</a></p>
 							<h3><span>Web Developer / Full Stack</span></h3>
 							<p>
 								<ul class="fh5co-social-icons">
