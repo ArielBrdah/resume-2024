@@ -55,13 +55,17 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<div class="profile-thumb" style="background: url(images/ariel.jpeg);"></div>
-							<h1><span>Ariel Berdah</span></h1>
-							<p><a href="/resume/ariel_berdah_resume.docx" class="btn btn-default btn-lg">Get Resume</a></p>
-							<h3><span>Web Developer / Full Stack</span></h3>
+							<div class="profile-thumb" style="border: solid white .6rem!important; background: url(images/ariel.jpeg); background-size: 100%!important;"></div>
+							<h1 class="h1" ><span style="padding:0!important;">Ariel Berdah</span></h1>
+							<h2><span>/Full Stack Developer/</span></h2>
 							<p>
-								<ul class="fh5co-social-icons">
+								<ul class="fh5co-social-icons d-flex flex-row justify-content-center align-items-center">
 									<li><a href="https://linkedin.com/in/arielcberdah"><i class="icon-linkedin2"></i></a></li>
+									<li><a style="font-size: 2rem; text-transform: uppercase;" href="/resume/ariel_berdah_resume.docx" class="pb-4 text-light">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+  <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+  <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+</svg>&nbsp;Resume</a></li>
 								</ul>
 
 								
@@ -100,11 +104,10 @@
 			
 					<p>I excel in HTML, CSS, JavaScript, PHP, and NodeJS. Beyond coding, I have a keen interest in design and believe strongly in the principles of clear, efficient code—adhering to both KISS (Keep It Simple, Stupid) and Clean Code practices. Understanding projects deeply and delivering optimal solutions are hallmarks of my approach.</p>
 			
-					<p>Outside of work, I find joy in music, dancing, and the structured simplicity of procedural programming. I'm also fascinated by Bash scripting and aspire to delve into Linux system administration. In my free time, you'll often find me walking or jogging, appreciating the outdoors.</p>
+					<p>Outside of work, I find joy in music. In my free time, you'll often find me walking or jogging, appreciating the outdoors.</p>
 			
 					<p>I'm drawn to software development because it allows me to solve both simple and complex problems with clarity and well-structured solutions. My dedication to this field has cultivated a sensitivity to effective and impactful coding practices.</p>
 			
-					<p>When discussing work, I prioritize understanding existing frameworks and requirements to deliver the best possible outcomes. I am pragmatic and detail-oriented, asking the right questions to bridge conceptualization with realization effectively.</p>
 					<p>Let's connect! You can reach me on:</p>
 
 					<p>
